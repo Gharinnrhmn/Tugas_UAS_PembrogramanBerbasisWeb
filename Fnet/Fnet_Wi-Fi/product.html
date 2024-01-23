@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./foto/wifi.jpeg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="contact_us.css">
+
+    <title>Fnet</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+         <div class="grad-bar"></div>
+         <nav class="navbar">
+           <img src="./foto/wifi.jpeg" alt="Company Logo">
+           <h1>Fnet</h1>
+           <div class="menu-toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           </div>
+           <ul class="nav no-search">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="product.html">Product</a></li>
+            <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+           </ul>
+         </nav>
+         </div>
+         <section class="headline">
+            <div class="hero">
+                <h1>Daftar Paket dan Harga Wi-Fi Fnet</h1>
+                
+            </div>
+         </section>
+
+        <div class="title">
+            <h2 class="sub_title">Daftar Paket dan Harga</h2>
+            <div class="line_small"></div>
+            <div class="line_big"></div>
+            <div class="line_small"></div>
+            <br>
+            
+        </div>
+        
+        <div class="container_product">
+         <ul class="card-list">
+	
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/10mbps-1.png');" >
+                    <h4>Rp.160.000</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/15mbps-1.png');" >
+                    <h4>Rp.200.000</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/20mbps-1.png');" >
+                    <h4>Rp.250.000</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/25bmbps.jpeg');" >
+                    <h4>Rp.290.000</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/30mbps.png');" >
+                    <h4>Rp.350.000</h4>
+                </div>
+            </li>
+
+            
+        </ul>
+    </div>
+
+       <!-- footer -->
+    <footer>
+        <div class="center_items">      
+            <p>Copyright 2023 © By <span>Fnet</span></p>
+            <br>
+        </div>
+    </footer>
+    <!-- batas akhir footer -->
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $("#search-icon").click(function() {
+        $(".nav").toggleClass("search");
+        $(".nav").toggleClass("no-search");
+        $(".search-input").toggleClass("search-active");
+      });
+      
+      $('.menu-toggle').click(function(){
+         $(".nav").toggleClass("mobile-nav");
+         $(this).toggleClass("is-active");
+      });
+      
+</script>
+</html>
